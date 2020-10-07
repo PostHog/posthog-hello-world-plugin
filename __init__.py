@@ -1,15 +1,7 @@
-from abc import ABC, abstractmethod
+from posthog.plugins import PluginBaseClass
 
-class Plugin(ABC):
 
-    @abstractmethod
+class ShitPlugin(PluginBaseClass):
     def process_event(self, event):
-        pass
-
-    @abstractmethod
-    def process_person(self, event):
-        pass
-
-    @abstractmethod
-    def process_identify(self, event):
-        pass
+        print(event)
+        return event
