@@ -1,7 +1,7 @@
 from posthog.plugins import PluginBaseClass
 
 
-class ShitPlugin(PluginBaseClass):
+class ExamplePlugin(PluginBaseClass):
     def process_event(self, event):
         print(event)
         return event
