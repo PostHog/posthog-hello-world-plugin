@@ -1,12 +1,8 @@
 from posthog.plugins import PluginBaseClass, PosthogEvent
 
 
-class ExamplePlugin(PluginBaseClass):
-    def __init__(self, config):
-        self.bar = config['foo']
-        pass
-    
+class ExamplePlugin(PluginBaseClass):   
     def process_event(self, event: PosthogEvent):
         event.properties["hello"] = "world"
-        event.properties["bar"] = self.bar
+        event.properties["bar"] = self.config["bar"]
         return event
