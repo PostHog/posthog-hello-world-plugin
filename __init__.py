@@ -2,6 +2,5 @@ from posthog.plugins import PluginBaseClass, PosthogEvent
 
 
 class ExamplePlugin(PluginBaseClass):
-    @staticmethod
-    def instance_init():
-        raise Exception("Something fishy")
+    def team_init(self):
+        raise Exception("Something fishy in this team")
