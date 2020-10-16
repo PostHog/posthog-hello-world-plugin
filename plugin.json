@@ -5,3 +5,9 @@
   "config": {
     "bar": {
       "name": "What's in the bar?",
+      "type": "string",
+      "default": "baz",
+      "required": false
+    }
+  }
+}
