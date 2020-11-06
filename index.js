@@ -1,10 +1,9 @@
 async function setupTeam({ config }) {
     console.log("Setting up the team!")
     console.log(config)
-
 }
 
-async function processEvent(event, { config }) {
+async function processEvent(event, { config, cache }) {
     const counter = await cache.get('counter', 0)
     cache.set('counter', counter + 1)
 
