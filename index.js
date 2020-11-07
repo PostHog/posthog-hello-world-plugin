@@ -1,4 +1,4 @@
-async function setupTeam({ config }) {
+async function setupPlugin({ config }) {
     console.log("Setting up the team!")
     console.log(config)
 }
@@ -11,7 +11,7 @@ async function processEvent(event, { config, cache }) {
         event.properties['hello'] = 'world'
         event.properties['bar'] = config.bar
         event.properties['$counter'] = counter
-        event.properties['lib_number'] = lib_function(3)
+        event.properties['lib_number'] = libFunction(3)
     }
 
     return event

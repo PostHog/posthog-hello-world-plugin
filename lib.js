@@ -1,3 +1,3 @@
-function lib_function (number) {
+function libFunction (number) {
     return number * 2;
 }
