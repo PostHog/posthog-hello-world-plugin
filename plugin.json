@@ -1,7 +1,7 @@
 {
   "name": "helloworldplugin",
   "url": "https://github.com/PostHog/helloworldplugin",
-  "description": "Greet the World and Foo a Bar, JS edition!",
+  "description": "Greet the World and Foo a Bar, JS edition, vol 2!",
   "main": "index.js",
   "lib": "lib.js",
   "config": {
