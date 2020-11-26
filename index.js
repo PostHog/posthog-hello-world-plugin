@@ -1,6 +1,7 @@
-async function setupPlugin({ config }) {
-    console.log("Setting up the team!")
+async function setupPlugin({ config, global }) {
+    console.log("Setting up the plugin!")
     console.log(config)
+    global.setupDone = true
 }
 
 async function processEvent(event, { config, cache }) {
@@ -15,4 +16,15 @@ async function processEvent(event, { config, cache }) {
     }
 
     return event
+}
+
+module.exports = {
+    setupPlugin,
+    processEvent,
+}
+
+// Internal library functions below
+
+function libFunction (number) {
+    return number * 2;
 }

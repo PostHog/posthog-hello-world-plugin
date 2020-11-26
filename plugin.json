@@ -3,7 +3,6 @@
   "url": "https://github.com/PostHog/helloworldplugin",
   "description": "Greet the World and Foo a Bar, JS edition!",
   "main": "index.js",
-  "lib": "lib.js",
   "config": {
     "bar": {
       "name": "What's in the bar?",
