@@ -1,4 +1,4 @@
-# helloworldplugin
+# Hello World Plugin
 Posthog hello world plugin. Use it as a base for your own plugins!
 
 ## Setup
