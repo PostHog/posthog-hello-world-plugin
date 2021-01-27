@@ -1,5 +1,5 @@
 {
-  "name": "helloworldplugin",
+  "name": "Hello World",
   "url": "https://github.com/PostHog/helloworldplugin",
   "description": "Greet the World and Foo a Bar, JS edition!",
   "main": "index.js",
