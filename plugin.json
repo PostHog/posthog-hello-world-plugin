@@ -8,6 +8,7 @@
       "key": "bar",
       "name": "What's in the bar?",
       "type": "string",
+      "secret": true,
       "default": "baz",
       "required": false
     }
