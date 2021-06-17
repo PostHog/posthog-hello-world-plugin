@@ -2,7 +2,6 @@
     "name": "posthog-hello-world-plugin",
     "private": true,
     "version": "1.0.0",
-    "description": "Greet the world with every PostHog event!",
     "keywords": [
         "posthog",
         "plugin"
