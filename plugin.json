@@ -1,7 +1,7 @@
 {
     "name": "Hello World",
     "url": "https://github.com/PostHog/posthog-hello-world-plugin",
-    "description": "A basic PostHog plugin",
+    "description": "Greet the world with every PostHog event",
     "main": "index.js",
     "config": [
         {
