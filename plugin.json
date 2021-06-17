@@ -1,15 +1,15 @@
 {
-  "name": "Hello World",
-  "url": "https://github.com/PostHog/helloworldplugin",
-  "description": "Greet the World and Foo a Bar, JS edition!",
-  "main": "index.js",
-  "config": [
-    {
-      "key": "bar",
-      "name": "What's in the bar?",
-      "type": "string",
-      "default": "baz",
-      "required": false
-    }
-  ]
+    "name": "Hello World",
+    "url": "https://github.com/PostHog/posthog-hello-world-plugin",
+    "description": "A basic PostHog plugin",
+    "main": "index.js",
+    "config": [
+        {
+            "key": "greeting",
+            "name": "What greeting would you like to use?",
+            "type": "string",
+            "default": "Hello world!",
+            "required": false
+        }
+    ]
 }
