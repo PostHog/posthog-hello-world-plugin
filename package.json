@@ -12,10 +12,11 @@
         "testEnvironment": "node"
     },
     "scripts": {
-        "test": "jest ."
+        "test": "eslint index.js && jest ."
     },
     "devDependencies": {
         "@posthog/plugin-scaffold": "0.10.0",
-        "jest": "^27.0.4"
+        "jest": "^27.0.4",
+        "eslint": "^8.9.0"
     }
 }

@@ -1,3 +1,6 @@
+/* global module */
+/* eslint no-undef: "error" */
+
 // Some internal library function
 async function getRandomNumber() {
     return 4
