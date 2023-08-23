@@ -13,11 +13,8 @@ async function setupPlugin({ config }) {
 
 // Plugin method that processes event
 async function processEvent(event, { config, cache }) {
-    const counterValue = (await cache.get('greeting_counter', 0))
-    cache.set('greeting_counter', counterValue + 1)
     if (!event.properties) event.properties = {}
     event.properties['greeting'] = config.greeting
-    event.properties['greeting_counter'] = counterValue
     event.properties['random_number'] = await getRandomNumber()
     return event
 }
