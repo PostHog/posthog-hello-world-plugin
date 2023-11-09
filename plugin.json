@@ -1,15 +1,15 @@
 {
-    "name": "Hello World",
-    "url": "https://github.com/PostHog/posthog-hello-world-plugin",
-    "description": "Greet the world with every PostHog event. An example plugin.",
-    "main": "index.js",
+    "name": "Webhook",
+    "url": "https://github.com/PostHog/webhook-plugin",
+    "description": "Send a webhook",
+    "main": "index.tsx",
     "config": [
         {
-            "key": "greeting",
-            "name": "What greeting would you like to use?",
+            "key": "url",
+            "name": "What is the webhook destination URL?",
             "type": "string",
-            "default": "Hello world!",
-            "required": false
+            "default": "",
+            "required": true
         }
     ]
 }
